@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+  #home .my-button {
+    background-image: url("btn_panel.png");
+    width:307px;
+    height:75px;
+    padding-top:0px auto;
+  }
+
+  #home .my-button .ui-btn-inner {
+    padding-top: 25px;
+  }
+
+  #home .my-button .ui-btn-text {
+    left: -280px;
+  }
+
+  .ui-icon-about-icon {
+    border-radius:0px;
+    background-image: url("logo36.png");
+    background-color: rgba(0, 0, 0, 0);
+    width:36px;
+    height:36px;
+  }
+ 
+
+
+
+#mapa_button {
+  height: 33vh;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  background: black url(mapa_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#horario_button {
+  height: 33vh;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  background: black url(horario_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#artistas_button {
+  height: 33vh;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  background: black url(artistas_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+#sobre_button {
+  height: 33vh;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  background: black url(sobre_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+#info_button {
+  height: 33vh;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  background: black url(info_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+#noticias_button {
+  height: 33vh;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  background: black url(noticias_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#header_logo {
+  height: 40px;
+  width: 60px;
+  padding: 0;
+  margin: 10px auto;
+  background:  url(header_logo.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+#day1_button {
+  height: 33vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: black url(day1_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#day2_button {
+  height: 33vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: black url(day2_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#day3_button {
+  height: 33vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: black url(day3_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+#artist1_button {
+ 
+  background: black url(artist1_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+#artist2_button {
+  
+  background: black url(artist1_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#artist3_button {
+ 
+  background: black url(artist1_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+#artist4_button {
+ 
+  background: black url(artist1_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+#artist5_button {
+ 
+  background: black url(artist1_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+#artist6_button {
+ 
+  background: black url(artist1_button.png) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.artist {
+  height: 15vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+
+.horario {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	float:left;
+	text-align:center;
+	font-size:24px;
+	text-shadow:0 0 0 !important;
+}
+
+
+.horario_artist_image {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	float:left;
+	font-size:24px;
+}
+
+.horario_artist_text {
+	width: auto;
+	height: 100px;
+	background-color: red;
+	font-size:24px;
+	text-shadow:0 0 0 !important;
+	
+}

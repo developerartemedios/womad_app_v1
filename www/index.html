@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+<style type="text/css">
+body,td,th {
+	font-family: HelveticaNeue-Light, HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+</style>
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+	
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/womad-jqm.css">
+   <link rel="stylesheet" type="text/css" href="css/index.css" />
+   <link rel="stylesheet" href="css/buttons.css">
+    
+		
+    
+    
+     
+	<script src="js/jquery.js"></script>
+	
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    
+	<script id="panel-init">
+		$(function() {
+			$( "body>[data-role='panel']" ).panel();
+		});
+	</script>
+    
+     <script>
+	
+	 $(document).ready(function() {
+		 $.mobile.loadPage.defaults.showLoadMsg = false;
+$.mobile.changePage.defaults.showLoadMsg = false;
+
+});
+		 </script>
+    
+@charset "UTF-8";
+   <title>Hello World</title>
+   
+
+</head>
+
+<body>
+<!-- /start of Page -->
+	<div data-role="page" id="home" style="height:100%;">
+
+
+ 
+ 
+ 
+		<div data-role="header" data-id="menu" data-position="fixed">
+        
+        	
+        	
+			<div style="float:right; margin-top:20px; margin-right:10px;"><a href="#rightpanel2"><img src="img/icon_nav.png" width="27" height="20"></a></div>
+            
+            <div id="back_nav" style="float:left; margin-top:18px;margin-left:10px;"><img src="img/back_nav.png" width="28" height="27"></div>
+            <div id="header_logo"></div>
+		
+        </div><!-- /header -->
+ 
+ 
+ <div>
+  
+    <div id="horario_button" style="float:left;"></div>
+    <div id="mapa_button" style="float:right;"></div>
+    <div id="artistas_button" style="float:left;"></div>
+    <div id="noticias_button" style="float:right;"></div>
+    <div id="info_button" style="float:left;"></div>
+    <div id="sobre_button" style="float:right;"></div>
+     
+</div>
+	
+    
+<div id="social" style="text-align:center; background-color:#666;">	
+
+<div id="facebook" style="display: inline-block; vertical-align: middle; margin:1em 1em;"><a href="#rightpanel2"><img src="img/facebook.png" width="32" height="32"></a></div>
+            
+            <div id="twitter" style="display: inline-block; vertical-align: middle; margin:0 1em;""><img src="img/twitter.png" width="32" height="32"></div>
+            
+             <div id="instagram" style="display: inline-block; vertical-align: middle; margin:0 1em;"><img src="img/instagram.png" width="32" height="32"></div>
+            
+</div>	
+
+
+</div><!-- end of/page -->
+
+
+<!-- rightpanel2  -->
+	<div data-role="panel" id="rightpanel2" data-position="right" data-display="push" data-theme="b" data-position-fixed="true">
+    
+    
+    <div style="height:140px; width:180px;">
+    
+      <img style=" display: block; margin-left: auto; margin-right: auto;" src="img/header_logo.png" width="152" height="116"> </div>
+    
+    
+    
+    
+    
+	  <div style="height:40px; width:180px; background-color:red; text-align:center; font-size:24px;">
+       <span style="display: inline-block; vertical-align:middle;"> HORARIO</span>
+        </div>
+        <div style="height:40px; width:180px; margin-top:8px; background-color:red; text-align:center; font-size:24px;">
+         <span style="display: inline-block; vertical-align:middle;"> MAPA</span>
+        </div>
+        
+        
+         <div style="height:40px; width:180px; margin-top:8px; background-color:red; text-align:center; font-size:24px;">
+         <span style="display: inline-block; vertical-align:middle;"> ARTISTAS</span>
+        </div>
+        
+        
+         <div style="height:40px; width:180px; margin-top:8px; background-color:red; text-align:center; font-size:24px;">
+         <span style="display: inline-block; vertical-align:middle;"> NOTICAS</span>
+        </div>
+        
+        
+         <div style="height:40px; width:180px; margin-top:8px; background-color:red; text-align:center; font-size:24px;">
+         <span style="display: inline-block; vertical-align:middle;"> SOBRE</span>
+        </div>
+        
+        
+         <div style="height:40px; width:180px; margin-top:8px; background-color:red; text-align:center; font-size:24px;">
+         <span style="display: inline-block; vertical-align:middle;"> INFO</span>
+        </div>
+       
+
+	</div><!-- /rightpanel2 -->
+
+
+<!-- /end of page -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+     <script>
+     $("#nav_list").click(function(e) {
+        $.mobile.changePage('#rightpanel2', { transition: "slide"} );
+    });
+	</script>
+    
+ <!-- home page buttons -->   
+    <script>
+	
+
+	 $('body').on('click','#back_nav',function(){
+               window.history.back()
+			});			
+	
+		
+	 $('body').on('click','#mapa_button',function(){
+                $.mobile.changePage("mapa.html", { transition: "slide"});
+			});	
+
+		
+	 $('body').on('click','#horario_button',function(){
+                $.mobile.changePage("days.html", { transition: "slide"});
+			});	
+			
+
+	 $('body').on('click','#artistas_button',function(){
+                $.mobile.changePage("artistas.html", { transition: "slide"});
+			});
+		   
+		   
+	
+			
+			</script>
+            
+<!-- horario day buttons -->  			
+   <script>
+   
+   $('body').on('click','#day1_button',function(){
+        $.mobile.changePage("day1.html", { transition: "slide"});
+    });
+ 
+    </script>
+  
+   
+ 
+            
+</body>
+
+</html>
