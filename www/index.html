@@ -80,13 +80,17 @@ $.mobile.changePage.defaults.showLoadMsg = false;
 
 <body>
 <!-- /start of Page -->
+
+
+	
+
 	<div data-role="page" id="home" style="height:100%;">
 
 
  
  
  
-		<div data-role="header" data-id="menu" data-position="fixed">
+		<div data-role="header" data-id="menu" data-position="fixed" >
         
         	
         	
@@ -122,8 +126,15 @@ $.mobile.changePage.defaults.showLoadMsg = false;
 
 
 </div><!-- end of/page -->
+<div id="social" style="text-align:center; background-color:#666;">	
 
-
+<div id="facebook" style="display: inline-block; vertical-align: middle; margin:1em 1em;"><a href="#rightpanel2"><img src="img/facebook.png" width="32" height="32"></a></div>
+            
+            <div id="twitter" style="display: inline-block; vertical-align: middle; margin:0 1em;""><img src="img/twitter.png" width="32" height="32"></div>
+            
+             <div id="instagram" style="display: inline-block; vertical-align: middle; margin:0 1em;"><img src="img/instagram.png" width="32" height="32"></div>
+            
+</div>	
 <!-- rightpanel2  -->
 	<div data-role="panel" id="rightpanel2" data-position="right" data-display="push" data-theme="b" data-position-fixed="true">
     
@@ -215,8 +226,16 @@ $.mobile.changePage.defaults.showLoadMsg = false;
     });
  
     </script>
-  
+    
+    <!-- Aists buttons -->  			
+   <script>
    
+   $('body').on('click','#tradattack_button',function(){
+        $.mobile.changePage("testartists.html", { transition: "slide"});
+    });
+ 
+    </script>
+
  
             
 </body>
