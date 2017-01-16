@@ -276,7 +276,7 @@ background-size: cover;
 
 
 .horario_odd {
-	width: 280px;
+	width: 180px;
 	height: 110px;
 	background-color: #dcdcdc;
 	float:left;
@@ -312,8 +312,6 @@ background-size: cover;
 
 	
 }
-
-
 
 .ui-page .ui-header {
     background: #3794b5 !important;
