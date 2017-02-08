@@ -107,7 +107,7 @@ $.mobile.changePage.defaults.showLoadMsg = false;
     <div id="horario_button" style="float:left;"></div>
     <div id="mapa_button" style="float:right;"></div>
     <div id="artistas_button" style="float:left;"></div>
-    <div id="noticias_button" style="float:right;"></div>
+    <div id="workshops_button" style="float:right;"></div>
     <div id="info_button" style="float:left;"></div>
     <div id="sobre_button" style="float:right;"></div>
      
@@ -161,7 +161,7 @@ $.mobile.changePage.defaults.showLoadMsg = false;
         
         
          <div style="height:40px; width:180px; margin-top:8px; background-color:red; text-align:center; font-size:24px;">
-         <span style="display: inline-block; vertical-align:middle;"> NOTICAS</span>
+         <span style="display: inline-block; vertical-align:middle;"> WORKSHOPS</span>
         </div>
         
         
@@ -212,6 +212,10 @@ $.mobile.changePage.defaults.showLoadMsg = false;
 	 $('body').on('click','#artistas_button',function(){
                 $.mobile.changePage("artistas.html", { transition: "slide"});
 			});
+			
+	$('body').on('click','#workshops_button',function(){
+                $.mobile.changePage("workshops.html", { transition: "slide"});
+			});
 		   
 		   
 	
@@ -227,11 +231,130 @@ $.mobile.changePage.defaults.showLoadMsg = false;
  
     </script>
     
-    <!-- Aists buttons -->  			
+    <!-- Artists Buttons -->  			
    <script>
    
    $('body').on('click','#tradattack_button',function(){
-        $.mobile.changePage("testartists.html", { transition: "slide"});
+        $.mobile.changePage("artistas/trad.html", { transition: "slide"});
+    });
+	
+	
+	   $('body').on('click','#gaiteros_button',function(){
+        $.mobile.changePage("artistas/gaiteros.html", { transition: "slide"});
+    });
+	
+	
+	   $('body').on('click','#mateokingman_button',function(){
+        $.mobile.changePage("artistas/mateo.html", { transition: "slide"});
+    });
+	
+	
+	
+	  $('body').on('click','#jambinai_button',function(){
+        $.mobile.changePage("artistas/jambinai.html", { transition: "slide"});
+    });
+	
+	
+	  $('body').on('click','#pazmera_button',function(){
+        $.mobile.changePage("artistas/paz.html", { transition: "slide"});
+    });
+	
+	
+		  $('body').on('click','#cumbia_button',function(){
+        $.mobile.changePage("artistas/cumbia.html", { transition: "slide"});
+    });
+	
+	
+	
+	  $('body').on('click','#ruha_button',function(){
+        $.mobile.changePage("artistas/rob.html", { transition: "slide"});
+    });
+	
+	
+	 $('body').on('click','#felizvioleta_button',function(){
+        $.mobile.changePage("artistas/yosoy.html", { transition: "slide"});
+    }); 
+	
+	
+	$('body').on('click','#kiruza_button',function(){
+        $.mobile.changePage("artistas/kiruza.html", { transition: "slide"});
+    }); 
+	
+	$('body').on('click','#izumi_button',function(){
+        $.mobile.changePage("artistas/luciel.html", { transition: "slide"});
+		
+		
+    }); 
+	
+	$('body').on('click','#tuba_button',function(){
+        $.mobile.changePage("artistas/tuba.html", { transition: "slide"});
+		
+		
+    }); 
+	
+	$('body').on('click','#seidu_button',function(){
+        $.mobile.changePage("artistas/seidu.html", { transition: "slide"});
+		
+		
+    }); 
+	
+	$('body').on('click','#slowinska_button',function(){
+        $.mobile.changePage("artistas/joanna.html", { transition: "slide"});
+		
+		
+    }); 
+	
+	
+	$('body').on('click','#mehdi_button',function(){
+        $.mobile.changePage("artistas/mehdi.html", { transition: "slide"});
+		
+		
+    }); 
+	
+	$('body').on('click','#eli_button',function(){
+        $.mobile.changePage("artistas/eli.html", { transition: "slide"});
+		
+		
+    }); 
+	
+	
+	$('body').on('click','#sotzil_button',function(){
+        $.mobile.changePage("artistas/sotzil.html", { transition: "slide"});
+		
+		
+    }); 
+	
+	$('body').on('click','#twelfth_button',function(){
+        $.mobile.changePage("artistas/twelfth.html", { transition: "slide"});
+    });
+	
+		$('body').on('click','#tang_button',function(){
+        $.mobile.changePage("artistas/tanghetto.html", { transition: "slide"});
+    });
+	
+	
+		$('body').on('click','#hang_button',function(){
+        $.mobile.changePage("artistas/hanggai.html", { transition: "slide"});
+    });
+	
+	
+		$('body').on('click','#moral_button',function(){
+        $.mobile.changePage("artistas/moral.html", { transition: "slide"});
+    });
+	
+	
+		$('body').on('click','#raiz_button',function(){
+        $.mobile.changePage("artistas/raiz.html", { transition: "slide"});
+    });
+	
+	
+		$('body').on('click','#click_button',function(){
+        $.mobile.changePage("artistas/dj.html", { transition: "slide"});
+    });
+	
+	
+		$('body').on('click','#arbol_button',function(){
+        $.mobile.changePage("artistas/arbol.html", { transition: "slide"});
     });
  
     </script>
